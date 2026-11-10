@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CircleLink - Privacy Policy</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      color: #0f172a;
+      background-color: #f8fafc;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 32px 24px;
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+      border: 1px solid #e2e8f0;
+    }
+    h1 {
+      color: #4f46e5;
+      font-size: 28px;
+      margin-bottom: 8px;
+    }
+    .meta {
+      font-size: 14px;
+      color: #64748b;
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid #e2e8f0;
+    }
+    h2 {
+      font-size: 18px;
+      color: #1e293b;
+      margin-top: 24px;
+      margin-bottom: 10px;
+    }
+    p, li {
+      font-size: 15px;
+      color: #334155;
+    }
+    ul {
+      padding-left: 20px;
+      margin-top: 8px;
+      margin-bottom: 12px;
+    }
+    li {
+      margin-bottom: 6px;
+    }
+    .highlight-box {
+      background-color: #eef2ff;
+      border-left: 4px solid #4f46e5;
+      padding: 14px 18px;
+      border-radius: 6px;
+      margin: 18px 0;
+    }
+    a {
+      color: #4f46e5;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>CircleLink Privacy Policy</h1>
+    <div class="meta">
+      <strong>Last Updated:</strong> November 2026<br />
+      <strong>Data Controller:</strong> ASdownloads<br />
+      <strong>Contact Email:</strong> <a href="mailto:asdownloads001@gmail.com">asdownloads001@gmail.com</a>
+    </div>
+
+    <h2>1. Introduction & Scope</h2>
+    <p>ASdownloads ("we," "us," or "our") is committed to protecting your privacy. This Privacy Policy details how CircleLink ("the App") collects, handles, stores, and protects personal data in full compliance with Google Play Developer Program Policies, GDPR, and international privacy standards.</p>
+
+    <h2>2. Data We Collect</h2>
+    <p>To deliver real-time location sharing and circle safety features, CircleLink collects:</p>
+    <ul>
+      <li><strong>Account Credentials:</strong> Full name, email address, profile photo (avatar), and unique Firebase Authentication user ID (UID).</li>
+      <li><strong>Real-Time & Background GPS Location:</strong> Precise latitude, longitude, speed, heading, and altitude data.</li>
+      <li><strong>Battery & Device Telemetry:</strong> Battery percentage, charging status, operating system version, and Expo / FCM push notification tokens.</li>
+      <li><strong>Circle Safety Data:</strong> Geofenced saved places (home, school, work), place arrival and departure alerts, high-speed driving alerts (80+ mph), and member-to-member messages.</li>
+      <li><strong>Billing & Entitlement Identifiers:</strong> Subscription plan tiers and purchase timestamps verified via RevenueCat and Google Play Billing. (ASdownloads never stores or processes credit card numbers).</li>
+    </ul>
+
+    <div class="highlight-box">
+      <h2>3. Prominent Disclosure: Background Location & Foreground Services</h2>
+      <p><strong>Continuous Background Location:</strong> CircleLink accesses and processes your precise GPS coordinates in the background <strong>EVEN WHEN THE APP IS CLOSED OR NOT IN USE</strong>. This enables circle members to view your real-time whereabouts, receive automated arrival/departure place alerts, and detect driving speed warnings without requiring the app to be held open.</p>
+      <p><strong>Persistent Foreground Notification:</strong> On Android devices, when live location sharing is active, an ongoing persistent notification ("CircleLink Location Service") is visibly displayed in the notification shade to ensure you are always aware that location tracking is running.</p>
+      <p><strong>User Autonomy:</strong> You have full control. You can disable location broadcasting at any moment using the "Share My Live Location" toggle in Settings, or by revoking location permissions inside Android System Settings.</p>
+    </div>
+
+    <h2>4. Purpose of Data Processing</h2>
+    <p>Your information is processed exclusively to:</p>
+    <ul>
+      <li>Render member locations and avatars on your shared Google Map.</li>
+      <li>Trigger automated arrival, departure, low-battery, and speeding notifications to circle members.</li>
+      <li>Manage circle rosters, invite codes, and subscription entitlements.</li>
+      <li>Prevent unauthorized write attempts and maintain server security.</li>
+    </ul>
+
+    <h2>5. Third-Party Infrastructure Partners</h2>
+    <p>ASdownloads <strong>does not</strong> sell, monetize, or lease your personal data to data brokers or advertising networks. We only transmit data to industry-standard infrastructure providers required to operate the service:</p>
+    <ul>
+      <li><strong>Google Cloud Platform & Firebase:</strong> Cloud Firestore, Firebase Authentication, and Firebase Cloud Storage for secure hosting.</li>
+      <li><strong>Google Maps SDK:</strong> For map rendering and reverse-geocoding place addresses.</li>
+      <li><strong>RevenueCat & Google Play In-App Billing:</strong> For processing subscriptions and validating digital store receipts.</li>
+      <li><strong>Expo & Firebase Cloud Messaging (FCM):</strong> To deliver push notifications.</li>
+    </ul>
+
+    <h2>6. Data Retention & Security Safeguards</h2>
+    <ul>
+      <li><strong>Transmission & Encryption:</strong> All network traffic is encrypted in transit using industry-standard TLS/SSL encryption protocols.</li>
+      <li><strong>Storage Limits:</strong> Transient location history is automatically pruned based on membership tier (24 hours for Free, up to 30 days for Pro/Family tiers).</li>
+    </ul>
+
+    <h2>7. Right to Erasure & Account Deletion</h2>
+    <p>You have complete control over your personal data:</p>
+    <ul>
+      <li><strong>Instant In-App Deletion:</strong> Open Settings &gt; "Delete Account & Data" to immediately delete your authentication profile, uploaded photo from Firebase Storage, and Firestore document records.</li>
+      <li><strong>Manual Deletion Requests:</strong> You may email <a href="mailto:asdownloads001@gmail.com">asdownloads001@gmail.com</a> at any time to request the manual verification or permanent erasure of your data.</li>
+    </ul>
+
+    <h2>8. Children's Privacy</h2>
+    <p>CircleLink is not designed for children under 13 without verifiable parental or guardian authorization. If we identify that account information for a child under 13 was provided without parental consent, we will promptly expunge the data.</p>
+
+    <h2>9. Contact Us</h2>
+    <p>If you have any questions or concerns regarding this policy, please reach out to:</p>
+    <p>
+      <strong>ASdownloads</strong><br />
+      Email: <a href="mailto:asdownloads001@gmail.com">asdownloads001@gmail.com</a>
+    </p>
+  </div>
+</body>
+</html>
